@@ -8,7 +8,7 @@
                 <span class="caption-subject font-red-sunglo bold uppercase">$MODEL_NAME_PLURAL$</span>
             </div>
             <h1 class="pull-right">
-                <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.create') !!}">Add New</a>
+                <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.create') !!}" data-toggle="modal"  data-target="#myModal">Add New</a>
             </h1>
         </div>
         @include('flash::message')
