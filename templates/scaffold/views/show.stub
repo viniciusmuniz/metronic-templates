@@ -11,7 +11,7 @@
             <div class="portlet-body form">
                 <div class="row" style="padding-left: 20px">
                    @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.show_fields')
-                   <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}" class="btn btn-default" data-dismiss="modal">Back</a>
+                   <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}" class="btn btn-default" data-dismiss="modal" aria-label="Close">Back</a>
                 </div>
             </div>
         </div>
