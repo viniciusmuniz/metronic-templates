@@ -1,10 +1,10 @@
 <?php
 
-namespace InfyOm\MetronicTemplates;
+namespace viniciusmuniz\MetronicTemplates;
 
 use Illuminate\Support\ServiceProvider;
 
-class MetronicTemplatesServiceProvider extends ServiceProvider
+class VMMetronicTemplatesServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

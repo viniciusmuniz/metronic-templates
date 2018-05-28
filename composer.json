@@ -13,7 +13,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Mitul Golakiya",
+            "name": "Vinicius Muniz",
             "email": "vmunizm@gmail.com"
         }
     ],
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "InfyOm\\MetronicTemplates\\": "src/"
+            "viniciusmuniz\\MetronicTemplates\\": "src/"
         }
     }
 }
