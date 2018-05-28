@@ -1,8 +1,9 @@
 {
-    "name": "infyomlabs/metronic-templates",
+    "name": "viniciusmuniz/metronic-templates",
     "description": "Metronic theme templates for InfyOm Laravel Generator",
     "keywords": [
         "infyom",
+        "viniciusmuniz",
         "laravel",
         "generator",
         "metronic",
@@ -13,7 +14,7 @@
     "authors": [
         {
             "name": "Mitul Golakiya",
-            "email": "me@mitul.me"
+            "email": "vmunizm@gmail.com"
         }
     ],
     "require": {
