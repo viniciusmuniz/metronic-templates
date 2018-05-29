@@ -16,7 +16,7 @@ class VMmetronicPathTemplatesServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../views', 'metronic-templates');
         $configPath = __DIR__.'/../config/VMmetronic.php';
         $this->publishes([
-            $configPath => config_path('VMmetronic.php'),
+            $configPath => config_path('VMmVMmetronicetronic.php'),
         ]);
     }
 
