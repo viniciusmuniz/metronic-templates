@@ -17,9 +17,6 @@
             "email": "vmunizm@gmail.com"
         }
     ],
-    "require": {
-        "php": ">=5.5.9"
-    },
     "autoload": {
         "psr-4": {
             "viniciusmuniz\\MetronicTemplates\\": "src/"
