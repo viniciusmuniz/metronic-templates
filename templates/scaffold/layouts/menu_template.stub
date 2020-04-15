@@ -1,0 +1,8 @@
+<li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--open {{ Request::is('$ROUTE_PREFIX$$MODEL_NAME_PLURAL_CAMEL$*') ? 'kt-menu__item--active' : '' }}" aria-haspopup="true">
+    <a class="kt-menu__link" href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') }}">
+            <span class="kt-menu__link-icon">
+                <i class="fa fa-edit"></i>
+            </span>
+        <span class="kt-menu__link-text">$MODEL_NAME_PLURAL_HUMAN$</span>
+    </a>
+</li>
