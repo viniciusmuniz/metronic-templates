@@ -17,7 +17,7 @@
                     <div class="kt-portlet__head-actions">
 
                         &nbsp;
-                        <a href="{{ route('ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.create') }}"
+                        <a href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.create')  }}"
                            class="btn btn-brand btn-elevate btn-icon-sm">
                             <i class="la la-plus"></i>
                             New
