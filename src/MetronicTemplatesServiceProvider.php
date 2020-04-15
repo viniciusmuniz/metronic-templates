@@ -1,6 +1,7 @@
 <?php
 
-namespace InfyOm\MetronicTemplates;
+namespace ViniciusMuniz\MetronicTemplates;
+
 
 use Illuminate\Support\ServiceProvider;
 
