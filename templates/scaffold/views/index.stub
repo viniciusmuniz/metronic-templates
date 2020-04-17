@@ -18,7 +18,7 @@
 
                         &nbsp;
                         <a href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.create')  }}"
-                           class="btn btn-brand btn-elevate btn-icon-sm">
+                           class="btn btn-brand btn-elevate btn-icon-sm"  data-toggle="modal" data-target="#modal-large">
                             <i class="la la-plus"></i>
                             New
                         </a>
