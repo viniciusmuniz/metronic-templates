@@ -1,15 +1,19 @@
 <!-- $FIELD_NAME_TITLE$ Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:') !!}
-    {!! Form::text('$FIELD_NAME$', null, ['class' => 'form-control','id'=>'$FIELD_NAME$']) !!}
+    <div class="input-group date">
+        {!! Form::text('$FIELD_NAME$', null, ['class' => 'form-control','id'=>'$FIELD_NAME$']) !!}
+        <div class="input-group-append">
+            <span class="input-group-text">
+                <i class="la la-calendar glyphicon-th"></i>
+            </span>
+        </div>
+    </div>
 </div>
-
-@push('scripts')
-    <script type="text/javascript">
-        $('#$FIELD_NAME$').datetimepicker({
-            format: 'YYYY-MM-DD HH:mm:ss',
-            useCurrent: true,
-            sideBySide: true
-        })
-    </script>
-@endpush
+<script type="text/javascript">
+    $('#$FIELD_NAME$').datetimepicker({
+        format: 'yyyy-mm-dd hh:ii',
+        startDate: new Date(),
+        autoclose: true,
+    })
+</script>
